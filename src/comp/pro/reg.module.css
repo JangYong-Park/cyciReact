@@ -1,0 +1,50 @@
+/* App.module.css */
+
+/* Background image setting */
+.app {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .loginPage,
+  .signupPage {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.7); /* Setting transparency to 70% */
+  }
+  
+  .loginForm,
+  .signupForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input[type='text'],
+  input[type='password'],
+  input[type='date'] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
